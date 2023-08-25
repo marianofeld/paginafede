@@ -1,0 +1,60 @@
+@media(max-width: 1500px){
+     article div h1 {
+        font-size: 10px;
+      }
+    #infosomos p {
+        font-size: 1px;
+      }
+}
+
+@media(max-width: 1050px){
+    div div img {
+        vertical-align: top;
+        max-height: 15rem
+      }
+}
+
+@media(max-width: 750px) {
+    div div img {
+        vertical-align: top;
+        max-height: 12rem
+      }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+
+        justify-content: right;
+        align-items: right;
+        align-content: right;
+        justify-items: right;
+    }
+
+    nav ul button {
+
+        margin-top: 0.3rem;
+    }
+
+    ;
+}
+
+@media(max-width: 480px) {
+    div div img {
+        vertical-align: top;
+        max-height: 10rem
+      }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+
+    }
+}

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&family=Roboto:wght@300&display=swap');
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -1px -1px 1rem #e20017;
+}
+
+header img {
+  height: 8rem;
+  width: 15rem;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 7rem;
+}
+
+#botoneraFiltros h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: WHITE;
+}
+
+header nav ul button {
+  background-color: transparent;
+  color: #333;
+  font-size: 2rem;
+  border: none
+}
+
+#infosomos h1 {
+  box-shadow: 0px 2px 0rem darkred;
+  font-size: 6rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 3rem;
+}
+
+#infosomos {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  align-items: left
+}
+
+section article {
+  padding: 4rem;
+  background-color: #cacaca;
+}
+
+#infosomos p {
+  padding-right: 5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1cm
+}
+
+.imgRepsan {
+  height: 40rem;
+  width: 40rem;
+
+}
+
+.iframe {
+  height: 40rem;
+  width: 55rem;
+}
+
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(/fondo/dle-dibujados-m.avif);
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0
+}
+
+/* Estilos del encabezado */
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #ffffff;
+  color: #e20017;
+  text-align: center;
+  box-shadow: 1px -1rem 1rem red;
+  margin-top: 5rem;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.display1 {
+  display: block
+}
+
+.display2 {
+  display: none;
+}
+
+/* botones */
+#btnProducto,
+#btnInicio {
+  padding: 0.6em 1em;
+  color: red;
+  border: 4px solid red;
+  transition: ease-in-out 0.3s;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+#btnProducto,
+#btnInicio {
+  margin-left: 1rem;
+}
+
+#btnProducto:hover,
+#btnInicio:hover {
+  transform: scale(1.2) rotate(10deg);
+  background-color: red;
+  color: #333
+}
+
+/* cartas */
+
+.tamañoDeCartas {
+  max-width: 15rem;
+  max-height: 24rem;
+  width: 15rem;
+  height: 24rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.tamañoDeCartas .divImagen img {
+  object-fit: contain;
+  width: 12rem;
+  height: 18rem;
+}
+
+.fondoCard1 {
+  border: #e20017 2px solid;
+  box-shadow: 1rem 1rem 1px black;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* boton insta + wp*/
+.Btn {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background: whitesmoke;
+  background: linear-gradient(45deg, #f03333 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  overflow: hidden;
+}
+
+.svgIcon {
+  transition-duration: .3s;
+}
+
+.svgIcon path {
+  fill: rgb(255, 255, 255);
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 500;
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+.Btn:hover {
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.Btn:hover .svgIcon {
+  opacity: 0;
+  transition-duration: .3s;
+}
+
+.svgIconWsp {
+  color: rgb(81, 247, 69);
+  fill: currentColor;
+}
+
+.svgIconWsp {
+  transition-duration: .3s;
+}
+
+.svgIconWsp path {
+  fill: white;
+}
+
+.BtnWsp:hover .svgIconWsp {
+  opacity: 0;
+  transition-duration: .3s;
+}
+
+.redesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.redesSociales h5 {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.redesSociales a {
+  padding: 1rem;
+}
+
+.BtnWsp {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, rgba(250, 250, 250, 1) 0%, rgba(14, 249, 33, 1) 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255,255,255,1)', endColorstr='rgba(14,249,33,1) ', GradientType=1);
+  overflow: hidden;
+}
+
+.BtnWsp:hover .text {
+  opacity: 1;
+  transition-duration: .4s;
+  color: #333;
+}
+
+.BtnWsp:hover {
+  color: #333;
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.card:hover {
+  box-shadow: 1rem 1rem 1rem #e20017
+}
+
+
+/* botonera productos */
+/* Estilos de la lista de productos */
+.product-list {
+  width: 100%;
+  padding-left: 6rem;
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: normal;
+}
+
+section div button {
+  background-color: #cacaca;
+  color: #e20017;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+}
+
+section div button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+section div button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 1px 1rem 1rem #fa725a;
+}
+
+section {
+  width: 100%;
+}
+
+#botoneraFiltros {
+  width: 15%;
+}
+
+.botoneraFiltros {
+  width: 100%;
+  flex-direction: column;
+  background: #e20017;
+  display: flex;
+}
+
+
+.botoneraFiltros button {
+  margin: 1rem;
+  background: #ffffff
+}
+
+.sectionFiltros {
+  display: flex;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-left: 10rem;
+  background-color: #cacaca;
+  padding-bottom: 5rem;
+}
+
+#carouselExampleIndicators {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div div img {
+  width: 100%;
+  height: 28rem;
+}

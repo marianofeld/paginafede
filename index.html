@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="shortcut icon" href="./logotipos/favicom.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Repsan</title>
+</head>
+<!-- pensar si agregar un encabazo onda laura -->
+
+<body>
+  <header>
+    <a href="./index.html">
+      <img src="./logotipos/repsanlogo.png" alt="">
+    </a>
+    <nav>
+      <ul>
+        <button id="btnInicio">Inicio</button>
+        <button id="btnProducto">Productos</button>
+      </ul>
+    </nav>
+  </header>
+
+ <main>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <img src="./carusel/Almacenes.jpg" class="d-block" alt="Manos sosteniendo un caloventor atma">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./carusel/E3-1024x576.jpg"  class="d-block"
+            alt="varios electrodomesticos en fila sobre una mesada">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./carusel/Feviser1.jpg" class="d-block" alt="Manos sosteniendo una batidora de mano">
+        </div>
+        <!-- <div class="carousel-item" data-bs-interval="1500">
+          <img src="./carusel/manos.png" class="d-block w-100" alt="Manos sosteniendo una batidora de mano">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="#" class="d-block w-100" alt="Manos sosteniendo una batidora de mano">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="#" class="d-block w-100" alt="Manos sosteniendo una batidora de mano">
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+ <section id="quienes-somos">
+      <article class="displayFlex">
+        <div id="infosomos">
+          <h1>Nosotros</h1>
+          <p>Los integrantes de <strong>Repsan</strong> tuvieron la oportunidad de desarrollar su propio negocio gracias
+            a
+            vos, con cada producto que comprás, pueden seguir siendo parte de la economía activa.
+            En una primera instancia, las y los reparadores fueron parte de un programa de formación de más de 400 horas
+            de duración, dictado por la empresa <strong>Newsan</strong>, donde adquirieron las habilidades necesarias
+            para
+            reparar electrodomésticos y desarrollar su propio negocio.
+            Luego de ello, <strong>Newsan</strong> invirtió en equipamiento técnico, espacios físicos y asesoría técnica
+            y
+            legal, para que cada reparador y reparadora pueda conformar su propia Unidad Productiva.
+            Las Unidades Productivas son centros de reparación conformados por personas de todo tipo y clase</p>
+        </div>
+        <img class="imgRepsan" src="./logotipos/repsansomos.jpg" alt="repsan">
+      </article>
+
+
+      <article class="displayFlex">
+        <div id="infosomos">
+          <h1>Ubicación</h1>
+          <p>Te invitamos cordialmente a visitarnos en <strong>Repsan</strong>.
+            Nuestro dedicado equipo estará encantado de recibirte y brindarte el mejor servicio posible. <br>
+            Nos encontramos estratégicamente ubicados en <strong>Guido Spano 1681, Victoria</strong>, un lugar vibrante
+            y lleno de energía en Argentina.</p>
+        </div>
+        <div class="iframe">
+          <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=guido%20y%20spano%201681,%20victoria,%20provincia%20de%20buenos%20aires+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+      </article>
+
+  
+
+
+     </section>
+    <section class="sectionFiltros">
+      <section id="botoneraFiltros" class="display2">
+        <div class="botoneraFiltros">
+          <h5>Filtro de productos:</h5>
+          <button id="belleza">Belleza</button>
+          <button id="bicicleta">Bicicletas</button>
+          <button id="climatizacion">Climatización</button>
+          <button id="cocina">Cocina</button>
+          <button id="hogar">Hogar</button>
+          <button id="tecnologia">Tecnologia</button>
+          <button id="todo">Todo</button>
+        </div>
+      </section>
+      <div class="product-list" id="productos"></div>
+    </section>
+
+  </main>
+
+  <footer>
+   
+    <div class="redesSociales">
+      <h5>Encontranos en:</h5>
+      <a href="http://www.instagram.com" target="_blank">
+        <button class="Btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 0 448 512" class="svgIcon">
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+            </path>
+          </svg><span class="text">Instagram</span>
+        </button>
+      </a>
+      <a href="#">
+        <button class="BtnWsp">
+          <svg xmlns="http://www.w3.org/2000/svg" class="svgIconWsp" viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
+            </path>
+          </svg><span class="text">WhatsApp</span>
+        </button>
+      </a>
+    </div>
+  </footer> 
+  
+    
+  <script src="./script.js"></script>
+</body> 
+
+</html>
